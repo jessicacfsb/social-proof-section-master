@@ -27,9 +27,27 @@ body{
 	font-weight: 700px;
 }
 
-.stars{
+.rate{
+	display: inline-block;
+	flex-direction: column;
 	color: hsl(300, 43%, 22%);
-	font-weight: 700px;
+}
+
+.stars{
+	display: block;
+	flex-direction: row;
+	background-image: url(images/icon-star.svg);
+	height: 16px;
+	width: 85px;
+}
+
+.reviews{
+	display:block;
+	padding: 10px;
+	padding: 10px;
+	height: 40px;
+	width: auto;
+	background-color:  hsl(300, 24%, 96%);
 }
 
 #img-colton, #img-irene, #img-anne{

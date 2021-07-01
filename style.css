@@ -20,21 +20,42 @@ body{
 
 .container{
 	padding: 50px;
+	display: block;
+}
+
+.initial{
+	padding: 50px;
+	display: inline-flex;
 }
 
 .secao1{
-
+	display: inline-block;
+	width: 600px;
+	line-height: 1.5;
+	font-weight: 700px;
+	color: hsl(303, 10%, 53%)
 }
 
-.secao1 span{
+.secao1 h1{
 	color: hsl(300, 43%, 22%);
-	font-weight: 700px;
+	font-size: 50px;
+	line-height: 1.0;
 }
 
 .rate{
-	display: inline-block;
+	display: inline-flex;
 	flex-direction: column;
 	color: hsl(300, 43%, 22%);
+}
+
+
+.reviews{
+	display:block;
+	margin: 10px;
+	height: 40px;
+	width: 600px;
+	border-radius: 10px;
+	background-color:  hsl(300, 24%, 96%);
 }
 
 .img-stars{
@@ -45,13 +66,9 @@ body{
 	width: 85px;
 }
 
-.reviews{
-	display:block;
-	padding: 10px;
-	padding: 10px;
-	height: 40px;
-	width: auto;
-	background-color:  hsl(300, 24%, 96%);
+.avaliacoes{
+	display: block;
+	flex-direction: column;
 }
 
 #img-colton, #img-irene, #img-anne{
@@ -65,22 +82,36 @@ h5{
 }
 
 .colton{ 
-	display: flex;
+	display: inline-block;
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(300, 43%, 22%);
 	padding: 30px;
+	max-width: 350px;
+	float: left;
+	margin-left: 0%;
+	border-radius: 10px;
 }
 
 .irene{
-	display: flex;
+	display: inline-block;
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(300, 43%, 22%);
+	padding: 30px;
+	max-width: 350px;
+	float: left;
+	margin-left: 2%;
+	border-radius: 10px;
 }
 
 .wallace{
-	display: flex;
+	display: inline-block;
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(300, 43%, 22%);
+	padding: 30px;
+	max-width: 350px;
+	float: left;
+	margin-left: 2%;
+	border-radius: 10px;
 }
 
 /*----------------------------------------------------*/

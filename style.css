@@ -40,12 +40,12 @@ body{
 	color: hsl(300, 43%, 22%);
 	font-size: 50px;
 	line-height: 1.0;
+	letter-spacing: -1px;
 }
 
 .rate{
-	display: inline-flex;
-	flex-direction: column;
 	color: hsl(300, 43%, 22%);
+	font-weight: 900px;
 }
 
 
@@ -77,6 +77,13 @@ body{
 	width: 50px;
 }
 
+#nome-colton{
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 1px;
+
+}
+
 h5{
 	color: hsl(333, 80%, 67%);
 }
@@ -86,10 +93,12 @@ h5{
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(300, 43%, 22%);
 	padding: 30px;
-	max-width: 350px;
+	max-width: 319px;
 	float: left;
-	margin-left: 0%;
+	margin-left: 3.5%;
 	border-radius: 10px;
+	letter-spacing: -0.6px;
+	line-height: 1.5;
 }
 
 .irene{
@@ -97,10 +106,13 @@ h5{
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(300, 43%, 22%);
 	padding: 30px;
-	max-width: 350px;
+	max-width: 319px;
 	float: left;
-	margin-left: 2%;
+	margin-left: 2.5%;
 	border-radius: 10px;
+	letter-spacing: -0.6px;
+	line-height: 1.5;
+	margin-top: 30px;
 }
 
 .wallace{
@@ -108,10 +120,13 @@ h5{
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(300, 43%, 22%);
 	padding: 30px;
-	max-width: 350px;
+	max-width: 319px;
 	float: left;
-	margin-left: 2%;
+	margin-left: 2.5%;
 	border-radius: 10px;
+	letter-spacing: -0.6px;
+	line-height: 1.5;
+	margin-top: 60px;
 }
 
 /*----------------------------------------------------*/

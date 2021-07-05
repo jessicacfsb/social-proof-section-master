@@ -21,6 +21,7 @@ body{
 .container{
 	display: block;
 	padding: 50px;
+	margin-left: 90px;
 	margin-top: -50px;
 }
 
@@ -49,7 +50,7 @@ body{
 	color: hsl(300, 43%, 22%);
 	font-weight: 900px;
 	padding: 50px;
-	margin-left: 100px;
+	margin-left: 50px;
 }
 
 .review{
@@ -72,7 +73,7 @@ body{
 	border-radius: 10px;
 	background-color:  hsl(300, 24%, 96%);
 	margin-bottom: 20px;
-	margin-left: 30px;
+	margin-left: 60px;
 }
 
 .tech{
@@ -84,12 +85,10 @@ body{
 	border-radius: 10px;
 	background-color:  hsl(300, 24%, 96%);
 	margin-bottom: 20px;
-	margin-left: 60px;
+	margin-left: 120px;
 }
 
 .img-stars{
-	display: block;
-	flex-direction: row;
 	background-image: url(images/icon-star.svg);
 	height: 16px;
 	width: 85px;
@@ -113,19 +112,21 @@ body{
 	display: inline-block;
 	margin-left: 10px;
 	line-height: 1px;
-
+	transform: translate(0px, -10px);
 }
 
 #nome-irene{
 	display: inline-block;
 	margin-left: 10px;
 	line-height: 1px;
+	transform: translate(0px, -10px);
 }
 
 #nome-anne{
 	display: inline-block;
 	margin-left: 10px;
 	line-height: 1px;
+	transform: translate(0px, -10px);
 }
 
 h5{
